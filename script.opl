@@ -1,0 +1,8 @@
+var iterations = 10000
+var sum = 0
+
+for i = 0 to iterations then
+    var sum = sum + i^i
+end
+
+print(sum)
